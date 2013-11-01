@@ -1041,7 +1041,10 @@ body.ui-mobile-viewport, div.ui-mobile-viewport {
 }
 .ui-mobile .ui-header, .ui-mobile .ui-footer {
 	border-left-width: 0;
-	border-right-width: 0
+	border-right-width: 0;
+	position:fixed;
+	bottom: 0;
+	width: 100%
 }
 .ui-header .ui-btn-left, .ui-header .ui-btn-right, .ui-footer .ui-btn-left, .ui-footer .ui-btn-right, .ui-header-fixed.ui-fixed-hidden .ui-btn-left, .ui-header-fixed.ui-fixed-hidden .ui-btn-right {
 	position: absolute;
