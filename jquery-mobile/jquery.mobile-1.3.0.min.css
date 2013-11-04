@@ -641,14 +641,14 @@ a.ui-link-inherit {
 	cursor: default!important;
 	pointer-events: none
 }
-.ui-icon, .ui-icon-searchfield:after {
+/*.ui-icon, .ui-icon-searchfield:after {
 	background-color: #666;
 	background-color: rgba(0,0,0,.4);
 	background-image: url(images/icons-18-white.png);
 	background-repeat: no-repeat;
 	-webkit-border-radius: 9px;
 	border-radius: 9px
-}
+}*/
 .ui-icon-alt .ui-icon, .ui-icon-alt .ui-icon-searchfield:after {
 	background-color: #fff;
 	background-color: rgba(255,255,255,.3);
@@ -736,6 +736,10 @@ a.ui-link-inherit {
 .ui-icon-app-video {
 	background-image: url(images/app-icon-video.png);	
 }
+.ui-icon-app-home {
+	background-image: url(images/app-icon-home.png);	
+}
+
 
 @media only screen and (-webkit-min-device-pixel-ratio:1.3), only screen and (min--moz-device-pixel-ratio:1.3), only screen and (min-resolution:200dpi) {
 .ui-icon-plus, .ui-icon-minus, .ui-icon-delete, .ui-icon-arrow-r, .ui-icon-arrow-l, .ui-icon-arrow-u, .ui-icon-arrow-d, .ui-icon-check, .ui-icon-gear, .ui-icon-refresh, .ui-icon-forward, .ui-icon-back, .ui-icon-grid, .ui-icon-star, .ui-icon-alert, .ui-icon-info, .ui-icon-home, .ui-icon-bars, .ui-icon-edit, .ui-icon-search, .ui-icon-searchfield:after, .ui-icon-checkbox-off, .ui-icon-checkbox-on, .ui-icon-radio-off, .ui-icon-radio-on {
@@ -871,11 +875,11 @@ a.ui-link-inherit {
 	-webkit-box-shadow: inset 0 1px 4px rgba(0,0,0,.2);
 	box-shadow: inset 0 1px 4px rgba(0,0,0,.2)
 }
-.ui-icon-shadow {
+/*.ui-icon-shadow {
 	-moz-box-shadow: 0 1px 0 rgba(255,255,255,.4);
 	-webkit-box-shadow: 0 1px 0 rgba(255,255,255,.4);
 	box-shadow: 0 1px 0 rgba(255,255,255,.4)
-}
+}*/
 .ui-btn:focus, .ui-link-inherit:focus {
 	outline: 0
 }
@@ -2469,7 +2473,7 @@ div.ui-btn-text {
 	right: 5px
 }
 .ui-header .ui-btn-icon-top .ui-icon, .ui-footer .ui-btn-icon-top .ui-icon, .ui-mini.ui-btn-icon-top .ui-icon, .ui-mini .ui-btn-icon-top .ui-icon {
-	top: 5px
+	top: 10px
 }
 .ui-header .ui-btn-icon-bottom .ui-icon, .ui-footer .ui-btn-icon-bottom .ui-icon, .ui-mini.ui-btn-icon-bottom .ui-icon, .ui-mini .ui-btn-icon-bottom .ui-icon {
 	bottom: 5px
