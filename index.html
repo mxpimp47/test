@@ -57,8 +57,8 @@
     <h1>Race FM</h1>
   </div>
   <div data-role="content"> 
-  	<video src="http://wz1.mainstreamnetwork.com/atwr-tv/myStream.sdp/playlist.m3u8">
-          </video>
+  
+  <video id='myVideo' src='http://wz1.mainstreamnetwork.com/atwr-tv/myStream.sdp/playlist.m3u8' controls width="640" height="360"/></video>
   </div>
   <div data-role="footer">
     <div data-role="navbar" data-iconpos="top">
@@ -72,4 +72,13 @@
   </div>
 </div>
 </body>
+<SCRIPT LANGUAGE="JavaScript">
+<!--
+window.onload = function() {
+var pElement = document.getElementById("myVideo");
+pElement.load();
+pElement.play();
+};
+//-->
+</SCRIPT>
 </html>
